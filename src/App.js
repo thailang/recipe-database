@@ -78,8 +78,8 @@ const App = () => {
             
             {/* {user ? ( */}
                 <RecipeApp />
-            {/* ) : ( */}
-                {/* <Login 
+            {/* ) : (
+                <Login 
                 email={email}
                 setEmail={setEmail}
                 password={password}
@@ -89,9 +89,9 @@ const App = () => {
                 hasAccount={hasAccount}
                 setHasAccount={setHasAccount}
                 emailError={emailError}
-                passwordError={passwordError} */}
+                passwordError={passwordError}
                 />
-            {/* )} */}
+            )} */}
         </div>
     )
 }
